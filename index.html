@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <h1 id="headline">Welcome to My Portfolio</h1>
+    <p class="intro">Hello, My name is Ainaz. I'm a web developer.</p>
+    <button id="change-greeting">Change Greeting</button>
+    <button id="dark-theme">Dark Theme</button>
+    <button id="light-theme">Light Theme</button>
+    <script src="script.js"></script>
+    <p id="status" class="about-info">Currently learning jQuery!</p>
+    <p id="status2" class="about-info">I love learning new technologies!</p>
+    <p id="status3" class="about-info">I am passionate about web development!</p>
+    <p id="status4" class="about-info">I enjoy solving complex problems!</p>
+
+    <button id="hide-status">Hide</button>
+    <button id="show-status">Show</button>
+    <button id="toggle-status">Toggle</button>
+
+    <h3> My Favorite Actors</h3>
+    <div class="gallery">
+    <img class="gallery-image" src="mads.png" alt="Mads Mikelsen">
+    <img class="gallery-image" src="Jane.png" alt="Simon Baker">
+    <img class="gallery-image" src="dexter.png" alt="Michael C Hall Dexter">
+    </div>
+
+    <button id="fade-in">Show</button>
+    <button id="fade-out">Hide</button>
+    <button id="fade-toggle">Toggle</button>
+
+    <h3 class="panel-title">Favorite Music</h3>
+    <div class="panel-content">I like jazz and pop music.</div>
+
+    <h3 class="panel-title">Favorite Movie</h3>
+    <div class="panel-content">My favorite movie is Hannibal.</div>
+
+    <h3 class="panel-title toggle-panel">My Favorite Subject</h3>
+    <div class="panel-content"> My favorite subject is web development.</div>
+
+    <ul id="skills-list">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>jQuery</li>
+    </ul>
+
+    <input id="new-skill" type="text" placeholder="React">
+    <button id="add-skill">Add Skill</button>
+    <button id="prepend-skill">Prepend Skill</button>
+    <button id="remove-skill">Remove Skill</button>
+    <br> 
+    <a id="social-link" href="https://github.com/Jkooked">My GitHub</a>
+    <button id="change-link">Change Link</button>
+
+    <form id="contact-form">
+        <label>
+            Name:
+            <input id="name-input" type="text">
+        </label>
+
+        <label>
+            Email:
+            <input id="email-input" type="email">
+        </label>
+    </form>
+
+    <p>Name: <span id="name-preview"></span></p>
+    <p>Email: <span id="email-preview"></span></p>
+
+    <div class="skill-bar">
+        <span>HTML 90%</span>
+        <div class="bar"><div class="bar-fill" data-width="90%"></div></div>
+    </div>
+
+    <div class="skill-bar">
+        <span>CSS 75%</span>
+        <div class="bar"><div class="bar-fill" data-width="75%"></div></div>
+    </div>
+
+    <div class="skill-bar">
+        <span>JavaScript 60%</span>
+        <div class="bar"><div class="bar-fill" data-width="60%"></div></div>
+    </div>
+
+    <button id="animate-skills">Animate My Skills</button>
+</body>
+</html>
