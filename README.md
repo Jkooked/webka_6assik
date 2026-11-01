@@ -87,4 +87,4 @@ The portfolio is organized around the assignment parts. Each task below names th
 
 I built the portfolio page with HTML, styled it with CSS, and added the required interactions with jQuery. I first set up the jQuery CDN and document-ready function, then implemented selectors and theme controls. I added the visibility, fade, and slide effects, followed by the interactive skills list, social link, and live form preview. Finally, I created animated skill bars and prepared this report with a screenshot placeholder for every task.
 
-## link of the webpage: 
+## link of the webpage: https://jkooked.github.io/webka_6assik/
